@@ -1,5 +1,3 @@
-@import "prefix";
-
 // Default Prefixes
 // ----------------------------------------
 
@@ -221,4 +219,8 @@ $default-prefixes-transform: -webkit, -moz, -o !default;
 
 @mixin animation-delay($v, $prefixes: $default-prefixes-animation) {
   @include prefix(animation-delay, $v, $prefixes);
+}
+
+@mixin animation-fill-mode($v, $prefixes: $default-prefixes-animation) {
+  @include prefix(animation-fill-mode, $v, $prefixes);
 }

@@ -4,7 +4,7 @@
   "description": "Helpers for cross-browser support",
   "author": "Anthony Short",
   "main": "support.scss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "prefix": "*"
   },
