@@ -6,7 +6,7 @@ most properties that require them.
 ## Installation
 
 ```
-fonzie install support
+bower install fonzie-support
 ```
 
 ## Usage
