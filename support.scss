@@ -1,3 +1,5 @@
+@import "prefix";
+
 // Default Prefixes
 // ----------------------------------------
 
@@ -19,119 +21,119 @@ $default-prefixes-transform: -webkit, -moz, -o !default;
 // ----------------------------------------
 
 @mixin appearance($v, $prefixes: $default-prefixes-appearance) {
-  @include prefix(appearance, $v, $prefixes);
+  @include fz-prefix(appearance, $v, $prefixes);
 }
 
 // Background Clip
 // ----------------------------------------
 
 @mixin background-clip($v, $prefixes: $default-prefixes-background-clip) {
-  @include prefix(background-clip, $v, $prefixes);
+  @include fz-prefix(background-clip, $v, $prefixes);
 }
 
 // Background Origin
 // ----------------------------------------
 
 @mixin background-origin($v, $prefixes: $default-prefixes-background-origin) {
-  @include prefix(background-origin, $v, $prefixes);
+  @include fz-prefix(background-origin, $v, $prefixes);
 }
 
 // Background Size
 // ----------------------------------------
 
 @mixin background-size($v, $prefixes: $default-prefixes-background-size) {
-  @include prefix(background-size, $v, $prefixes);
+  @include fz-prefix(background-size, $v, $prefixes);
 }
 
 // Border Radius
 // ----------------------------------------
 
 @mixin border-radius($r, $prefixes: $default-prefixes-border-radius) {
-  @include prefix(border-radius, $r, $prefixes);
+  @include fz-prefix(border-radius, $r, $prefixes);
 }
 
 // Box Shadow
 // ----------------------------------------
 
 @mixin box-shadow($v, $prefixes: $default-prefixes-box-shadow) {
-  @include prefix(box-shadow, $v, $prefixes);
+  @include fz-prefix(box-shadow, $v, $prefixes);
 }
 
 // Flexible Box
 // ----------------------------------------
 
 @mixin display-box($prefixes: $default-prefixes-box) {
-  @include prefix-value(display, box, $prefixes);
+  @include fz-prefix-value(display, box, $prefixes);
 }
 
 @mixin box-orient($v, $prefixes: $default-prefixes-box) {
-  @include prefix(box-orient, $v, $prefixes);
+  @include fz-prefix(box-orient, $v, $prefixes);
 }
 
 @mixin box-align($v, $prefixes: $default-prefixes-box) {
-  @include prefix(box-align, $v, $prefixes);
+  @include fz-prefix(box-align, $v, $prefixes);
 }
 
 @mixin box-flex($v, $prefixes: $default-prefixes-box) {
-  @include prefix(box-flex, $v, $prefixes);
+  @include fz-prefix(box-flex, $v, $prefixes);
 }
 
 @mixin box-flex-group($v, $prefixes: $default-prefixes-box) {
-  @include prefix(box-flex-group, $v, $prefixes);
+  @include fz-prefix(box-flex-group, $v, $prefixes);
 }
 
 @mixin box-ordinal-group($v, $prefixes: $default-prefixes-box) {
-  @include prefix(box-ordinal-group, $v, $prefixes);
+  @include fz-prefix(box-ordinal-group, $v, $prefixes);
 }
 
 @mixin box-direction($v, $prefixes: $default-prefixes-box) {
-  @include prefix(box-direction, $v, $prefixes);
+  @include fz-prefix(box-direction, $v, $prefixes);
 }
 
 @mixin box-lines($v, $prefixes: $default-prefixes-box) {
-  @include prefix(box-direction, $v, $prefixes);
+  @include fz-prefix(box-direction, $v, $prefixes);
 }
 
 @mixin box-pack($v, $prefixes: $default-prefixes-box) {
-  @include prefix(box-direction, $v, $prefixes);
+  @include fz-prefix(box-direction, $v, $prefixes);
 }
 
 // Box Sizing
 // ----------------------------------------
 
 @mixin box-sizing($v, $prefixes: $default-prefixes-box-sizing) {
-  @include prefix(box-sizing, $v, $prefixes);
+  @include fz-prefix(box-sizing, $v, $prefixes);
 }
 
 // Columns
 // ----------------------------------------
 
 @mixin column-count($v, $prefixes: $default-prefixes-columns) {
-  @include prefix(column-count, $v, $prefixes);
+  @include fz-prefix(column-count, $v, $prefixes);
 }
 
 @mixin column-gap($v, $prefixes: $default-prefixes-columns) {
-  @include prefix(column-gap, $v, $prefixes);
+  @include fz-prefix(column-gap, $v, $prefixes);
 }
 
 @mixin column-width($v, $prefixes: $default-prefixes-columns) {
-  @include prefix(column-width, $v, $prefixes);
+  @include fz-prefix(column-width, $v, $prefixes);
 }
 
 @mixin column-rule-width($v, $prefixes: $default-prefixes-columns) {
-  @include prefix(column-rule-width, $v, $prefixes);
+  @include fz-prefix(column-rule-width, $v, $prefixes);
 }
 
 @mixin column-rule-style($v, $prefixes: $default-prefixes-columns) {
-  @include prefix(column-rule-style, $v, $prefixes);
+  @include fz-prefix(column-rule-style, $v, $prefixes);
 }
 
 @mixin column-rule-color($v, $prefixes: $default-prefixes-columns) {
-  @include prefix(column-rule-color, $v, $prefixes);
+  @include fz-prefix(column-rule-color, $v, $prefixes);
 }
 
 @mixin column-rule($v, $prefixes: $default-prefixes-columns) {
-  @include prefix(column-rule, $v, $prefixes);
+  @include fz-prefix(column-rule, $v, $prefixes);
 }
 
 // Transforms
@@ -139,27 +141,27 @@ $default-prefixes-transform: -webkit, -moz, -o !default;
 
 // @see http: //www.w3.org/TR/css3-2d-transforms/#transform-property
 @mixin transform($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(transform, $v, $prefixes);
+  @include fz-prefix(transform, $v, $prefixes);
 }
 
 // @see http: //www.w3.org/TR/css3-2d-transforms/#transform-origin-property
 @mixin transform-origin($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(transform-origin, $v, $prefixes);
+  @include fz-prefix(transform-origin, $v, $prefixes);
 }
 
 // @see http: //www.w3.org/TR/css3-3d-transforms/#transform-style
 @mixin transform-style($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(transform-style, $v, $prefixes);
+  @include fz-prefix(transform-style, $v, $prefixes);
 }
 
 // @see http: //www.w3.org/TR/css3-3d-transforms/#perspective
 @mixin perspective-origin($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(perspective-origin, $v, $prefixes);
+  @include fz-prefix(perspective-origin, $v, $prefixes);
 }
 
 // @see http: //www.w3.org/TR/css3-3d-transforms/#backface-visibility
 @mixin backface-visibility($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(backface-visibility, $v, $prefixes);
+  @include fz-prefix(backface-visibility, $v, $prefixes);
 }
 
 // Transitions
@@ -167,60 +169,60 @@ $default-prefixes-transform: -webkit, -moz, -o !default;
 // @see http: //www.w3.org/TR/css3-transitions/
 
 @mixin transition-property($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(transition-property, $v, $prefixes);
+  @include fz-prefix(transition-property, $v, $prefixes);
 }
 
 @mixin transition-duration($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(transition-duration, $v, $prefixes);
+  @include fz-prefix(transition-duration, $v, $prefixes);
 }
 
 @mixin transition-timing-function($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(transition-timing-function, $v, $prefixes);
+  @include fz-prefix(transition-timing-function, $v, $prefixes);
 }
 
 @mixin transition-delay($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(transition-delay, $v, $prefixes);
+  @include fz-prefix(transition-delay, $v, $prefixes);
 }
 
 @mixin transition($v, $prefixes: $default-prefixes-transform) {
-  @include prefix(transition, $v, $prefixes);
+  @include fz-prefix(transition, $v, $prefixes);
 }
 
 // Animation
 // ----------------------------------------
 
 @mixin animation($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation, $v, $prefixes);
+  @include fz-prefix(animation, $v, $prefixes);
 }
 
 @mixin animation-name($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation-name, $v, $prefixes);
+  @include fz-prefix(animation-name, $v, $prefixes);
 }
 
 @mixin animation-duration($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation-duration, $v, $prefixes);
+  @include fz-prefix(animation-duration, $v, $prefixes);
 }
 
 @mixin animation-timing-function($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation-timing-function, $v, $prefixes);
+  @include fz-prefix(animation-timing-function, $v, $prefixes);
 }
 
 @mixin animation-iteration-count($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation-iteration-count, $v, $prefixes);
+  @include fz-prefix(animation-iteration-count, $v, $prefixes);
 }
 
 @mixin animation-direction($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation-direction, $v, $prefixes);
+  @include fz-prefix(animation-direction, $v, $prefixes);
 }
 
 @mixin animation-play-state($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation-play-state, $v, $prefixes);
+  @include fz-prefix(animation-play-state, $v, $prefixes);
 }
 
 @mixin animation-delay($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation-delay, $v, $prefixes);
+  @include fz-prefix(animation-delay, $v, $prefixes);
 }
 
 @mixin animation-fill-mode($v, $prefixes: $default-prefixes-animation) {
-  @include prefix(animation-fill-mode, $v, $prefixes);
+  @include fz-prefix(animation-fill-mode, $v, $prefixes);
 }
