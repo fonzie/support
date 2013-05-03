@@ -1,18 +1,12 @@
 {
-  "name": "support",
+  "name": "fonzie-support",
   "repo": "fonzie/support",
   "description": "Helpers for cross-browser support",
   "author": "Anthony Short",
   "main": "support.scss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
-    "prefix": "*"
+    "fonzie-prefix": "*"
   },
-  "remotes": [
-    "http://fonzie.herokuapp.com/packages"
-  ],
-  "files": [
-    "support.scss"
-  ],
   "license": "MIT"
 }
